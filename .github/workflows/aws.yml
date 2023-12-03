@@ -31,7 +31,7 @@ jobs:
         run: |
           # scp -P 4402  -o StrictHostKeyChecking=no -r ci_cd/ shah@shahtech.org:/
           ssh -p 4402 -o StrictHostKeyChecking=no shah@shahtech.org << 'ENDSSH'
-            cd /ci_cd
+            cd ci_cd/
             git pull
             pip3 install -r requirements.txt
             python3 shah.py
