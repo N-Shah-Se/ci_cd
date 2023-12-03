@@ -34,7 +34,7 @@ jobs:
             cd ci_cd/
             git pull
             pip3 install -r requirements.txt
-            python3 shah.py
+            #python3 shah.py
           ENDSSH
 
 
