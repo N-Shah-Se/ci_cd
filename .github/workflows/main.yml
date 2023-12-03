@@ -34,7 +34,7 @@ jobs:
             cd ci_cd/
             git pull
             pip3 install -r requirements.txt
-            systemctl restart ci_cd.service
+            systemctl restart ci_cd
             #python3 shah.py
           ENDSSH
 
